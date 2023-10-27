@@ -1,0 +1,12 @@
+.header {
+    background-color: #1F2937;
+}
+
+/* setting up header container */
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap; /* default is no-wrap */
+    /*optionally use "flex-flow: column wrap" to combine properties into one */
+}
+
