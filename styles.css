@@ -1,35 +1,4 @@
-
-/*
-.header {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-}
-*/
-
-body {
-    padding: 0;
-  }
-  nav {
-    padding: 12px;
-    border-bottom: 1px dotted
-      hsl(0deg 0% 0% / 0.2);
-  }
-  ul {
-    list-style-type: none;
-    align-items: baseline;
-    padding: 0px;
-    margin: 0;
-  }
-  ul a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 0.875rem;
-  }
-
-/* setting up header container
+/* 
 justify - position something along the primary axis
 align - position something along cross axis
 content - a group of stuff that can be distributed
@@ -43,5 +12,152 @@ flex-grow = 1/4 fills space
 gap to control spacing in between items
 margin-left: auto adds space around a particular item
 */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+}
+.logo {
+    font-size: 24px;
+    margin-right: auto;
+}
+body {
+    padding: 0;
+}
+.container {
+    background-color: #1F2937;
+    padding: 12px;
+    border-bottom: 1px dotted
+    hsl(0deg 0% 0% / 0.2);
+}
+ul {
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0;
+}
+ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.mainheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 24px;
+}
+
+.mainhero {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondaryhero {
+    font-size: 18px;
+}
+
+.button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 3px;
+    border: #F9FAF8;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    justify-self: end;
+}
+
+.button2 {
+    color: #F9FAF8;
+    background-color: #0561f5;
+    border-radius: 3px;
+    border: #F9FAF8;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    justify-self: end;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    
+}
+
+.randominformation {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    row-gap: 8px;
+    justify-content: space-around;
+    border: #3882F6;
+}
+
+.animage {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+}
+
+.middlesection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E5E7EB;
+    font-size: 18px;
+    font-family: italic;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.bottomsection {
+    padding: 48px;
+    margin: 12px;
+    
+}
+.calltoaction {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #E5E7EB;
+    padding: 48px;
+    margin: 12px;
+}
+
+.calltoactiontext {
+    display: flex;
+    flex-direction: column;
+}
 
 
