@@ -12,7 +12,7 @@ body {
     height: 100%;
     margin: 0px;
     background-color: black;
-    
+    flex: 1;
 }
 
 .container {
@@ -22,26 +22,26 @@ body {
     height: 60vh;
     width: 100vw;
     color: #234000;
-    
-    
+    overflow: hidden;
+    margin-top: 20vh;
 }
 
 .pictureSide {
     display: flex;
-    flex-grow: 1;  
+     
 }
 
 .formSide {
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    
     margin: auto;
     padding-left: 2em;
     font-size: clamp(0.2rem, 4vh, 1rem);    
 }
 
 img {
-    opacity: .2;
+    opacity: .8;
 }
 
 .formInside {
@@ -70,4 +70,7 @@ button {
     border-width: thin;
     margin: .5em;
     padding: .5em;
+}
+input {
+    width: clamp(.2rem, 10rem, 10rem);
 }
